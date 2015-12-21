@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "Tool to get the latest Font Awesome Icons and convert them to SVG for use in Fontello.com",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "font-awesome-svg": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.5.1",
     "renamer": "^0.5.6",
     "svgo": "^0.6.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

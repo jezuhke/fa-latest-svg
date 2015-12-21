@@ -7,9 +7,18 @@ It also removes the `fa-` prefix, since in my case it's not needed.
 * https://github.com/svg/svgo
 * https://github.com/75lb/renamer
 
-
 ## Run
-I will set up a task manager to avoid having to do this manually, but for now:
+
+* Install dependencies
+`npm install`
+
+* Run tasks
+`gulp generate`
+
+* Rename it (useful for me since I use "icon-" in my icon css)
+`cd svg && renamer --find 'fa-' --replace '' *`
+
+## Run manually
 
 * Install dependencies
 `npm install`
